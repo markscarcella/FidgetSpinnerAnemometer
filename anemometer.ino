@@ -17,6 +17,7 @@ void setup() {
   {
     pinMode(ledPins[i], OUTPUT);
   }
+  digitalWrite(sensorPin, HIGH);
 }
 
 void loop() {
